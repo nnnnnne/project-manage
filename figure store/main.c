@@ -164,9 +164,9 @@ void display()
 void close_app()
 {
     char choice;
-    printf("\n Do you want to close the applications?(Y/y)(N/n): ");
+    printf("\n Do you want to close the applications? \n Enter y for Yes / Enter n for No: ");
     scanf("%s", &choice);
-    if (choice == 'Y' || choice == 'y')
+    if (choice == 'Yes' || choice == 'y')
     {
         exit(0);
     }
